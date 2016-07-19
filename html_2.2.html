@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>
+			HTML Part 2 - HTML 2.2
+		</title>
+	</head>
+	<body>
+		
+		
+		<form name="myForm" id="myForm" method="POST" action="#">
+			<fieldset>
+				<legend>
+					Your Details:
+				</legend>
+				<span>Name:</span><input type="text" name="name" id="name" /><br/><br/>
+				<span>Email:</span><input type="email" name="email" id="email" />
+			</fieldset><br/><br/>
+			<fieldset>
+				<legend>
+					Your Reviews:
+				</legend>
+				<span>How did you hear about us? </span>
+					<select name="infoHear" id="infoHear">
+						<option value="friend">Friend</option>
+						<option value="google" selected>Google</option>
+						<option value="newspaper">Newspaper</option>
+					</select>
+				<br/><br/>
+					Would You visit again?<br/>
+					<span><input type="radio" name="visit" value="yes">Yes</span>
+					<span><input type="radio" name="visit" value="no">No</span>
+					<span><input type="radio" name="visit" value="maybe">Maybe</span><br/>
+					<br/>
+
+					Comments:<br/>
+					<textarea name="comments" id="comments" cols="40" rows="10"></textarea><br/>
+					<input type="checkbox" name="signUp" id="signUp" value="yes" checked>Sign me up for email updates<br/><br/>
+					<input type="submit" value="Submit Review" />
+			</fieldset>
+		</form>
+
+		
+		
+	</body>
+</html>
